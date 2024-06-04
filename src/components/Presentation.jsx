@@ -2,7 +2,7 @@ import React from 'react';
 import { Badge } from './Badge';
 import Github from './Icons/Github';
 import LinkedIn from './Icons/LinkedIn';
-import { SocialPill } from './SocialPill';
+import { Email } from './Icons/Email';
 
 export const Presentation = () => {
   return (
@@ -19,9 +19,9 @@ export const Presentation = () => {
         <h2 className='text-2xl opacity-80 text-wrap'>Web designer and developer <span className='text-yellow-200/90'>specialized in React</span> , based in Buenos Aires, Argentina.</h2>
 
         <nav className='flex gap-x-2 mt-5'>
-          
-          <Github className='w-9 h-9 rounded-full border border-white/10 flex *:justify-center items-center gap-x-2 py-2 px-4v hover:scale-110 transition ' />
-          <LinkedIn className='w-9 h-9 rounded-full border border-white/10 flex *:justify-center items-center gap-x-2 py-2 px-4v hover:scale-110 transition ' />
+          <Github className='size-11 rounded-full border border-white/10 flex *:justify-center items-center gap-x-2 py-2 px-4v hover:scale-110 transition ' />
+          <LinkedIn  className='size-11 rounded-full border border-white/10 flex *:justify-center items-center gap-x-2 py-2 px-4v hover:scale-110 transition ' />
+          <Email className='size-11 rounded-full border border-white/10 flex *:justify-center items-center gap-x-2 py-2 px-4v hover:scale-110 transition '  />
         </nav>
         
       </div>
