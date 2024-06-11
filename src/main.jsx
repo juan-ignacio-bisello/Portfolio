@@ -2,12 +2,11 @@ import React from 'react' ;
 import ReactDOM from 'react-dom/client' ;
 import './index.css' ;
 import '@fontsource-variable/onest';
-import { Header } from './components/Header.jsx';
-import { Presentation } from './components/Presentation.jsx';
+import { PortfolioApp } from './PortfolioApp.jsx';
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode >
-    <Header className='flex justify-center' />
-    <Presentation className='text-white text-5xl font-bold flex justify-center flex-row' />
+    <PortfolioApp />
   </React.StrictMode>,
 )
