@@ -1,4 +1,3 @@
-import React from 'react'
 
 export const SkillsContent = () => {
   return (
@@ -12,6 +11,15 @@ export const SkillsContent = () => {
       >
         React Js, Firebase, JavaScript, Tailwind, MySQL, SQL Server, Jest, GIT, CSS, HTML, Bootstrap
       </p>
+
+      <br />
+      
+      <p
+        className="text-2xl opacity-80 text-wrap"
+      >
+        Creativity, proactivity, teamwork, responsibility, analytical skills.
+      </p>
+
     </div>
     
   )
