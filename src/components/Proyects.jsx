@@ -8,8 +8,8 @@ export function Proyect() {
       className="max-w-sm flex"
     >
       <ProyectItem class='flex' />
-      <ProyectItem />
-      <ProyectItem />
+      <ProyectItem class='flex'/>
+      <ProyectItem class='flex'/>
     </Card>
   );
 }

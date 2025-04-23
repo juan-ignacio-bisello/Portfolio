@@ -1,7 +1,8 @@
 import React from 'react'
 import { Header } from './components/Header'
-import { Proyect } from './components/Proyect'
+import { Proyect } from './components/Proyects'
 import { Presentation } from './components/Presentation'
+import { SkillsContent } from './components/SkillsContent'
 
 export const PortfolioApp = () => {
   return (
@@ -9,6 +10,7 @@ export const PortfolioApp = () => {
         <Header className='flex justify-center' />
         <Presentation  className='text-white text-5xl font-bold flex justify-center flex-row' />
         <Proyect />
+        <SkillsContent />
     </>
   )
 }
