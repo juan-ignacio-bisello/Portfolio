@@ -7,8 +7,8 @@ import { SkillsContent } from './components/SkillsContent'
 export const PortfolioApp = () => {
   return (
     <>
-        <Header className='flex justify-center' />
-        <Presentation  className='text-white text-5xl font-bold flex justify-center flex-row' />
+        {/* <Header /> */}
+        <Presentation />
         <Proyect />
         <SkillsContent />
     </>
